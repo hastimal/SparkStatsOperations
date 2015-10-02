@@ -28,12 +28,14 @@ object StatsBasicOperations  {
     val sum = stats.sum
     println("Sum of numbers    "+sum)
     val mean= stats.mean
-    println("Mean of all is     "+mean)
+    println("Mean of numbers is     "+mean)
     val max = stats.max
     println("Maximum number is     "+max)
     val min = stats.min
     println("Minimum number is     "+min)
     val variance = stats.variance
+    val range = max-min
+    println("Range number is     "+range)
     println("Variance of numbers is    "+variance)
     val std = stats.variance
     println("Standard deviation is    "+std)
